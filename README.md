@@ -8,7 +8,8 @@ Geodetic evidence for either case appears limited but serveral models co- and in
 
 So if data are lacking it's the perfect time to understand the behavior of idealized fault and fold models and make predictions for the spatial patterns of surface deformation consisent with both co- and inter-seismic fold growth.  The simple models here do this for single dipping thrust fault that ramps down to a flat detachment.  A single fold bisects these two structures.  Following Souter and Hager (1997) we approximate the fold as a dislocation plane exploiting the focal mechanism ambiguity [Figure 5](https://github.com/brendanjmeade/CoInterFaultFold2D/blob/master/Figure5.png).  This means that deformation associated with material passing through the kink axis is treated elastically.
 
-The essential results are:
+The individual constributions to a surface deformation are shown in ![Figure 6](https://github.com/brendanjmeade/CoInterFaultFold2D/blob/master/Figure6.png) with blue lines representing horizontal motion and green lines representing vertical motion.  The upper right panel shows the long term motions over many earthquake cycles with steps at the surface trace of both the fault and fold.  The region between the fault and fold in uniformly uplifted.  The upper right panel shows surface motions in response to unit slip on the fault ramp.  The lower left panel shows the surface motions in response to unit slip on a small portion of the horizontal detachment.  The lower right panel shows the surface motions in response to unit slip across the fold axis.  Over geologic time the last three panels must sum to match the first.
+
 
 1 - NNN
 
