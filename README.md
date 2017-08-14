@@ -1,55 +1,14 @@
-# CoInterFaultFold2D
-Blocks
-======
+# Some notes on kinematically consisten coseismic faulting and folding in 2D
 
-Present-day deformation at plate boundary zones, recorded as GPS velocities, reflects the combination of plate motion and elastic strain accumulation. This suite of codes implements the block modeling methodology described by:
+The geometric relationship between faults in folds have been extensively documented and modeled (e.g., Suppe, 1985).  The question of when do these folds grow has recieved a bit less attention (e.g., Souter and Hager, 1997; Dolan et al., 2003).  Essentially the question is whether hanging wall folds grow during earthquakes (coseismically) or in between earthquakes (interseismically).  Geodetic evidence for either case appears limited.
 
-Meade, B.J. and J.P. Loveless (2009), Block modeling with multiple fault network geometries and a linear elastic coupling estimator in spherical coordinates, *Bulletin of the Seismological Society of America*, 99(6), 3124–3139, [doi:10.1785/0120090088](https://dx.doi.org/10.1785/0120090088).
+So if data are lacking it's the perfect time to understand the behavior of idealized fault and fold models and make predictions for the spatial patterns of surface deformation consisent with both co- and inter-seismic fold growth.  The simple models here do this for single dipping thrust fault that ramps down to a flat detachment.  A single fold bisects these two structures.  Following Souter and Hager (1997) we approximate the fold as a dislocation plane exploiting the focal mechanism ambiguity.  This means that deformation associated with material passing through the kink axis is treated elastically.
 
-Blocks is designed for use with Matlab R2014b and later. 
+The essential results are:
 
-Documentation (evolving) can be found on the [**Blocks** wiki](https://github.com/brendanjmeade/Blocks/wiki) and in a [Google Doc] (https://docs.google.com/document/d/1AJheJrVqPX4yj2hbgysC-H2RkdkfkxvNJQIza1b3u34/edit?usp=sharing).
+1 - NNN
 
-To get started: 
----------------
-Run the following commands on the Matlab command prompt:
+2 - NNN
 
-```matlab
-blockshome = '~/MATLAB/Blocks'; % Edit path to where you placed the Blocks directory
-cd(blockshome) 
-cd BlocksUtilities
-blockspath(blockshome) % This function adds the Blocks subdirectories to your Matlab path
-```
-
-You can create a new template model directory structure using:
-```matlab
-blocksdirs('~/MATLAB/Blocks/California') 
-% Edit path to specify your project name; a new directory will be created if it doesn't exist
-```
-
-Then, edit the Blocks geometry files (.segment and .block) using SegmentManager:
-```matlab
-cd ~/MATLAB/Blocks/California/command
-SegmentManager
-% Within SegmentManager, click "Load" under "Command file" and load 'model.command'. 
-% Use SegmentManager tools to add and modify segment and block properties, saving 
-% the geometry files to the ../segment and ../block directories
-```
-
-To run the analysis,
-```matlab
-cd ../result
-Blocks('../command/model.command')
-% The results will be saved in a newly generated directory in the result directory
-```
-
-To view the results,
-```matlab
-ResultManager
-% Load a result directory. If you have more than one set of results, you can compare
-% them by loading both a "Result directory" and "Compare directory"
-```
-
-SegmentManager interface:
--------------------------
-![alt tag](https://cloud.githubusercontent.com/assets/4225359/9386297/d46874ca-4728-11e5-9deb-48899bd91770.png)
+All figures are produced by: 
+```NNN```
