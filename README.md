@@ -1,4 +1,4 @@
-# Some notes on kinematically consisten coseismic faulting and folding in 2D
+# Some notes on kinematically consistent coseismic faulting and folding in 2D
 
 The geometric relationship between faults in folds have been extensively documented and modeled (e.g., Suppe, 1985).  The question of when do these folds grow has recieved a bit less attention (e.g., Souter and Hager, 1997; Dolan et al., 2003).  Essentially the question is whether hanging wall folds grow during earthquakes (coseismically) or in between earthquakes (interseismically).  Geodetic evidence for either case appears limited.
 
