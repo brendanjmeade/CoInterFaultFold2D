@@ -16,7 +16,7 @@ The 6 panels show: a) interseimsic horizontal deformation (note that the label i
 
 The central results may be summarized as:
 
-1 - NNN
+1 - The clearest distinctions between the different kinematic models can be seen in the botton two panels (e, f) which show the total cumulative (or geologic) deformation.  The kinematically consistent fault and fold model (red line) produces distinct displacement jumps at *both* the locations where both the fault and fold intersect the surface rather than just at the fault trace (other 3 models).  In particular for the flat detachment case considered here long-term vertical uplift is localized entirely *between* the surface intersection between the fault and fold and is consistent with long-term antiformal growth. 
 
 2 - Difference in coseismic displacements are localized around the intersection of the surface with the fold axis.
 
