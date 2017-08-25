@@ -13,10 +13,15 @@ The individual constributions to a surface deformation are shown in ![Figure 6](
 The predicted surface displacements from the different classes of models are summaraized in ![Figure 9](https://github.com/brendanjmeade/CoInterFaultFold2D/blob/master/Figure9.png).  The 6 panels show:
 
 a) interseimsic horizontal deformation (note that the label is incorrect in this panel!)
+
 b) interseismic vertical deformation
+
 c) coseismic horizontal deformation
+
 d) coseismic vertical deformation
+
 e) cumulative horizontal deformation
+
 f) cumulative vertical deformation 
 
 
