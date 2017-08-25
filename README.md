@@ -10,10 +10,19 @@ So if data are lacking it's the perfect time to understand the behavior of ideal
 
 The individual constributions to a surface deformation are shown in ![Figure 6](https://github.com/brendanjmeade/CoInterFaultFold2D/blob/master/Figure6.png) with blue lines representing horizontal motion and green lines representing vertical motion.  The upper right panel shows the long term motions over many earthquake cycles with steps at the surface trace of both the fault and fold.  The region between the fault and fold in uniformly uplifted.  The upper right panel shows surface motions in response to unit slip on the fault ramp.  The lower left panel shows the surface motions in response to unit slip on a small portion of the horizontal detachment.  The lower right panel shows the surface motions in response to unit slip across the fold axis.  Over geologic time the last three panels must sum to match the first.
 
+The predicted surface displacements from the different classes of models are summaraized in ![Figure 9](https://github.com/brendanjmeade/CoInterFaultFold2D/blob/master/Figure9.png).  The 6 panels show:
+
+a) interseimsic horizontal deformation (note that the label is incorrect in this panel!)
+b) interseismic vertical deformation
+c) coseismic horizontal deformation
+d) coseismic vertical deformation
+e) cumulative horizontal deformation
+f) cumulative vertical deformation 
+
+
 
 1 - NNN
 
-2 - NNN
+2 - Difference in coseismic displacements are localized around the intersection of the surface with the fold axis.
 
-All figures are produced by: 
-```NNN```
+All figures (except figures 1 and 5) are produced by the matlab scripts included here.
